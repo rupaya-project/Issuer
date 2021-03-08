@@ -1,0 +1,158 @@
+//Font famyli setting
+$font-baijam: 'Bai Jamjuree', sans-serif;
+$font-quicksand: 'Quicksand', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+
+//Fonts tomoissuer Icomoon
+@font-face {
+  font-family: 'tomoissuer';
+  src:  url('../fonts/tomoissuer/tomoissuer.eot?3ap85t');
+  src:  url('../fonts/tomoissuer/tomoissuer.eot?3ap85t#iefix') format('embedded-opentype'),
+    url('../fonts/tomoissuer/tomoissuer.ttf?3ap85t') format('truetype'),
+    url('../fonts/tomoissuer/tomoissuer.woff?3ap85t') format('woff'),
+    url('../fonts/tomoissuer/tomoissuer.svg?3ap85t#tomoissuer') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="tomoissuer-"], [class*=" tomoissuer-"] {
+  /* use !important to prevent issues with browser extensions that change ../fonts/tomoissuer */
+  font-family: 'tomoissuer' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tomoissuer-icon-tomoz-new-white .path1:before {
+  content: "\e927";
+  color: rgb(255, 255, 255);
+}
+.tomoissuer-icon-tomoz-new-white .path2:before {
+  content: "\e928";
+  margin-left: -1.3505859375em;
+  color: rgb(0, 232, 181);
+}
+.tomoissuer-icon-tomox-new .path1:before {
+  content: "\e922";
+  color: rgb(36, 40, 40);
+}
+.tomoissuer-icon-tomox-new .path2:before {
+  content: "\e923";
+  margin-left: -1.25em;
+  color: rgb(36, 40, 40);
+}
+.tomoissuer-icon-tomox-new .path3:before {
+  content: "\e924";
+  margin-left: -1.25em;
+  color: rgb(0, 232, 181);
+}
+.tomoissuer-icon-tomoz-new .path1:before {
+  content: "\e925";
+  color: rgb(36, 40, 40);
+}
+.tomoissuer-icon-tomoz-new .path2:before {
+  content: "\e926";
+  margin-left: -1.3505859375em;
+  color: rgb(0, 232, 181);
+}
+.tomoissuer-icon-angle-double-left:before {
+  content: "\e900";
+}
+.tomoissuer-icon-angle-double-right:before {
+  content: "\e901";
+}
+.tomoissuer-icon-angle-down:before {
+  content: "\e902";
+}
+.tomoissuer-icon-angle-left:before {
+  content: "\e903";
+}
+.tomoissuer-icon-angle-right:before {
+  content: "\e904";
+}
+.tomoissuer-icon-angle-up:before {
+  content: "\e905";
+}
+.tomoissuer-icon-email:before {
+  content: "\e906";
+}
+.tomoissuer-icon-facebook:before {
+  content: "\e907";
+}
+.tomoissuer-icon-github:before {
+  content: "\e908";
+}
+.tomoissuer-icon-linkedin:before {
+  content: "\e909";
+}
+.tomoissuer-icon-tomox:before {
+  content: "\e90a";
+}
+.tomoissuer-icon-telegram:before {
+  content: "\e90b";
+}
+.tomoissuer-icon-tomoz:before {
+  content: "\e90c";
+}
+.tomoissuer-icon-twiter:before {
+  content: "\e90d";
+}
+.tomoissuer-icon-wallet:before {
+  content: "\e90e";
+}
+.tomoissuer-icon-reddit:before {
+  content: "\e90f";
+}
+.tomoissuer-icon-next-right:before {
+  content: "\e910";
+}
+.tomoissuer-icon-startup:before {
+  content: "\e911";
+}
+.tomoissuer-icon-checkmark-outline:before {
+  content: "\e912";
+}
+.tomoissuer-icon-edit-pencil:before {
+  content: "\e913";
+}
+.tomoissuer-icon-search:before {
+  content: "\e914";
+}
+.tomoissuer-earth:before {
+  content: "\e915";
+}
+.tomoissuer-medium:before {
+  content: "\e916";
+}
+.tomoissuer-icon-burn:before {
+  content: "\e917";
+}
+.tomoissuer-icon-reissue:before {
+  content: "\e918";
+}
+.tomoissuer-three-dots:before {
+  content: "\e919";
+}
+.tomoissuer-icon-cog:before {
+  content: "\e91a";
+}
+.tomoissuer-icon-info:before {
+  content: "\e91b";
+}
+.tomoissuer-icon-tomox2:before {
+  content: "\e91f";
+}
+.tomoissuer-icon-tomox3:before {
+  content: "\e920";
+}
+.tomoissuer-icon-tomox1:before {
+  content: "\e921";
+}

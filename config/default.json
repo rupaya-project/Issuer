@@ -1,0 +1,34 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 3001
+    },
+    "logs": {
+        "level": "debug"
+    },
+    "cors": [
+        "https://swagger.rupx.io"
+    ],
+    "tomoscanUrl": "http://scan.rupx.io",
+    "tomoscanAPI": "https://scan.rupx.io",
+    "tomowalletUrl": "https://wallet.rupx.io",
+    "tomorelayerAPI": "https://relayer.rupx.io",
+    "relayerAuthorityKey": "",
+    "tokenListAPI": "https://raw.githubusercontent.com/rupaya-project/tk/master/tokens",
+    "blockchain": {
+        "rpc": "https://rpc.rupx.io",
+        "ws": "wss://ws.rupx.io/ws",
+        "networkId": 499,
+        "gas": 2000000,
+        "deployPrice": 10000000000000,
+        "issuerAddress": "0x3b12c9e741A5CA45d00b16039B0bfA8270fDdD67",
+        "tomoXAddress": "0x3B78674714d39c5e27Ed7827714ADef4b9713ee7"
+    },
+    "db": {
+        "uri": "mongodb://mongodb:27017/issuer"
+    },
+    "truffle": {
+        "privateKey": "",
+        "minCapacity": "10"
+    }
+}
