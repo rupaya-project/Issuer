@@ -7,7 +7,7 @@
                 <p>
                     Token transactions will not be processed if the remaining deposit is not
                     enough to pay transaction fees. In such a case, to resume the processing
-                    of token transactions, any TOMO holder can deposit/donate TOMO to the TomoIssuer smart contract.
+                    of token transactions, any RUPX holder can deposit/donate RUPX to the Issuer smart contract.
                 </p>
             </div>
             <b-form
@@ -39,7 +39,7 @@
                             </b-link>
                         </div>
                         <div>
-                            TRC-21 fee fund: {{ formatNumber(poolingFee) }} TOMO
+                            TRC-21 fee fund: {{ formatNumber(poolingFee) }} RUPX
                         </div>
                     </div>
                     <div
@@ -47,11 +47,11 @@
                         class="text-danger pt-2">Token not found</div>
                 </b-form-group>
                 <b-form-group
-                    :description="`Available balance:  ${balance} TOMO`"
+                    :description="`Available balance:  ${balance} RUPX`"
                     :class="'mb-4' + ($v.donationAmount.$dirty ? ' input-warn' : '') + warningClass"
                     label="Donation amount"
                     label-for="donationAmount">
-                    <span class="txt-fixed">TOMO</span>
+                    <span class="txt-fixed">RUPX</span>
                     <b-form-input
                         v-model="donationAmount"
                         type="number"
@@ -62,10 +62,10 @@
                         class="text-danger pt-2">Required field</div>
                     <div
                         v-else-if="$v.donationAmount.$dirty && !$v.donationAmount.minValue"
-                        class="text-danger pt-2">Deposit amount should be more than 0 TOMO</div>
+                        class="text-danger pt-2">Deposit amount should be more than 0 RUPX</div>
                     <div
                         v-else-if="depositingError"
-                        class="text-danger pt-2">Not enough TOMO</div>
+                        class="text-danger pt-2">Not enough RUPX</div>
                 </b-form-group>
                 <div class="btn-box">
                     <b-button

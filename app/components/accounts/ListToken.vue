@@ -93,15 +93,15 @@
                                     <b-dropdown-item
                                         v-if="!data.item.applytomoz"
                                         :to="'/tomozcondition/' + data.item.hash">
-                                        Apply to TomoZ
+                                        Apply to RupayaZ
                                     </b-dropdown-item>
                                     <b-dropdown-item
                                         v-if="!data.item.applytomox"
                                         :to="'/tomoxcondition/' + data.item.hash">
-                                        Apply to TomoX
+                                        Apply to RupeX
                                     </b-dropdown-item>
                                     <b-dropdown-item
-                                        href="https://github.com/tomochain/tokens"
+                                        href="https://github.com/rupaya-project/tk"
                                         target="_blank">
                                         Update Token Info
                                     </b-dropdown-item>
@@ -119,7 +119,7 @@
                                 <!-- <router-link
                                     v-if="!data.value"
                                     :to="`/tomozcondition/${data.item.hash}`">
-                                    Apply TomoZ
+                                    Apply RupayaZ
                                 </router-link> -->
                             </template>
                         </b-table>

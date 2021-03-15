@@ -17,7 +17,7 @@
                         <span
                             v-if="isAppliedZ"
                             class="apply-tomoz">
-                            TomoZ
+                            RupayaZ
                         </span>
                         <span
                             v-if="isAppliedX"
@@ -39,7 +39,7 @@
                                         <span class="path1"/><span class="path2"/>
                                     </span>
                                     <!-- <i class="tomoissuer-icon-tomoz mr-1"/> -->
-                                    Apply to TomoZ Protocol
+                                    Apply to RupayaZ Protocol
                                 </b-link>
                             </li>
                             <li>
@@ -58,15 +58,15 @@
                                     <b-dropdown-item
                                         v-if="!isAppliedZ && account === contractCreation"
                                         :to="'/tomozcondition/' + address">
-                                        Apply to TomoZ Protocol
+                                        Apply to RupayaZ Protocol
                                     </b-dropdown-item>
                                     <b-dropdown-item
                                         v-if="!isAppliedX && account === contractCreation"
                                         :to="'/tomoxcondition/' + address">
-                                        Apply to TomoX Protocol
+                                        Apply to RupeX Protocol
                                     </b-dropdown-item>
                                     <b-dropdown-item
-                                        href="https://github.com/tomochain/tokens"
+                                        href="https://github.com/rupaya-project/tk"
                                         target="_blank">
                                         Update Token Info
                                     </b-dropdown-item>
@@ -205,7 +205,7 @@
                                         <li v-if="isAppliedZ">
                                             <p class="title-small">TRC-21 fee fund</p>
                                             <div class="flex-box">
-                                                <span>{{ formatNumber(poolingFee) }} TOMO</span>
+                                                <span>{{ formatNumber(poolingFee) }} RUPX</span>
                                                 <span>
                                                     <b-link :to="'/depositfee/' + address">Deposit more</b-link>
                                                 </span>

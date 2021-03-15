@@ -46,7 +46,7 @@
                         autocomplete="off"
                         type="text"
                         maxlength="5"
-                        placeholder="Please use only Latin letters and numbers, e.g. “TOMO”"
+                        placeholder="Please use only Latin letters and numbers, e.g. “RUPX”"
                         @input="onChangeSymbol"
                         @change="onChangeSymbol"/>
                     <div
@@ -57,7 +57,7 @@
                     <!-- <small
                         tabindex="-1"
                         class="form-text text-muted">
-                        Please use only Latin letters and numbers, e.g. “TOMO”
+                        Please use only Latin letters and numbers, e.g. “RUPX”
                     </small> -->
                     <small
                         class="float-right txt-fixed-description">
@@ -208,7 +208,7 @@
                     </b-form-radio-group>
                 </b-form-group>
                 <div class="form-group flex-box mb-4">
-                    <label>Est. Issuance Fee</label><span>{{ txFee }} TOMO</span>
+                    <label>Est. Issuance Fee</label><span>{{ txFee }} RUPX</span>
                 </div>
                 <div class="btn-box">
                     <b-button

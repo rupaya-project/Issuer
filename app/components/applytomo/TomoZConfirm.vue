@@ -11,7 +11,7 @@
                     <span class="tomoissuer-icon-tomoz-new"><span class="path1"/><span class="path2"/></span>
                 </p>
                 <!-- <p><i class="tomoissuer-icon-tomoz-new"/></p> -->
-                <h2 class="tmp-title-large">TomoZ Protocol Application</h2>
+                <h2 class="tmp-title-large">RupayaZ Protocol Application</h2>
             </div>
             <div class="tmp-table-three">
                 <table>
@@ -41,7 +41,7 @@
                     </tr>
                     <tr>
                         <td>Deposit amount</td>
-                        <td>{{ formatNumber(depositeFee) }} TOMO</td>
+                        <td>{{ formatNumber(depositeFee) }} RUPX</td>
                     </tr>
                 </table>
             </div>
@@ -54,7 +54,7 @@
                 <b-button
                     class="tmp-btn-violet"
                     @click="applyTomoZ">
-                    Apply to TomoZ protocol
+                    Apply to RupayaZ protocol
                 </b-button>
             </div>
             <b-modal
@@ -70,7 +70,7 @@
                     <div class="msg-txt">
                         <i class="tomoissuer-icon-checkmark-outline"/>
                         <h4>Successful</h4>
-                        <p>{{ token.name }} token successfully applied to TomoZ</p>
+                        <p>{{ token.name }} token successfully applied to RupayaZ</p>
                         <p>
                             Transaction hash:
                             <a

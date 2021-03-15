@@ -32,7 +32,7 @@
                     </tr>
                     <tr>
                         <td>Amount of donation</td>
-                        <td>{{ formatNumber(donationAmount) }} TOMO</td>
+                        <td>{{ formatNumber(donationAmount) }} RUPX</td>
                     </tr>
                     <tr>
                         <td>Transaction fee</td>
@@ -75,7 +75,7 @@
                     <div class="msg-txt">
                         <i class="tomoissuer-icon-checkmark-outline"/>
                         <h4>Successful</h4>
-                        <p>You’ve succesfully donated {{ donationAmount }} TOMO</p>
+                        <p>You’ve succesfully donated {{ donationAmount }} RUPX</p>
                         <p>
                             Transaction hash:
                             <a

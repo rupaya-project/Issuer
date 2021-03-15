@@ -1,14 +1,14 @@
 swagger: '2.0'
 info:
   version: 1.0.0
-  title: TomoIssuer APIs
-  description: Happy to code TomoIssuer APIs
+  title: Issuer APIs
+  description: Happy to code Issuer APIs
   license:
     name: Github
     url: 'https://github.com/tomochain/tomoissuer'
 tags:
   - name: Config
-    description: Get TomoIssuer Application Configuration
+    description: Get Issuer Application Configuration
   - name: Account
     description: Get account's informations(from TomoScan)
   - name: Token
@@ -25,7 +25,7 @@ paths:
     get:
       tags:
         - Config
-      summary: Get TomoIssuer Application Configuration
+      summary: Get Issuer Application Configuration
       responses:
         '200':
           description: OK

@@ -3,7 +3,7 @@ const { deployToken } = require('./commands/deployToken')
 
 commander
     .version('0.1.0')
-    .description('TomoIssuer Management Commands')
+    .description('Issuer Management Commands')
 
 commander
     .command('deploy-token')

@@ -452,7 +452,7 @@ Vue.prototype.formatCurrencySymbol = function (number, unit) {
 }
 
 Vue.prototype.getCurrencySymbol = function () {
-    return 'TOMO'
+    return 'RUPX'
 }
 
 Vue.prototype.truncate = (fullStr, strLen) => {

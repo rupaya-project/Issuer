@@ -47,7 +47,7 @@
                                 <b-dropdown-text
                                     class="flex_box">
                                     <span>Balance:</span>
-                                    <strong>{{ balance }} TOMO</strong>
+                                    <strong>{{ balance }} RUPX</strong>
                                 </b-dropdown-text>
                                 <b-dropdown-divider />
                                 <b-dropdown-item
@@ -81,7 +81,7 @@
                     <div class="row">
                         <div class="col-md-7 col-lg-8">
                             <div class="tomo-copyright">
-                                TomoIssuer &copy; {{ (new Date()).getFullYear() }} -
+                                Issuer &copy; {{ (new Date()).getFullYear() }} -
                                 <a
                                     :href="`https://github.com/tomochain/tomoissuer/releases/tag/v${version}`"
                                     target="_blank"
@@ -117,22 +117,22 @@
                             <div class="tomo-social">
                                 <ul>
                                     <li><a
-                                        href="https://www.facebook.com/tomochainofficial"
+                                        href="https://www.facebook.com/rupayacoin"
                                         target="_blank"><i class="tomoissuer-icon-facebook"/></a></li>
                                     <li><a
-                                        href="https://twitter.com/TomoChainANN"
+                                        href="https://twitter.com/rupayaofficial"
                                         target="_blank"><i class="tomoissuer-icon-twiter"/></a></li>
                                     <li><a
-                                        href="https://t.me/tomochain"
+                                        href="https://t.me/rupayacommunity"
                                         target="_blank"><i class="tomoissuer-icon-telegram"/></a></li>
                                     <li><a
-                                        href="https://github.com/tomochain/"
+                                        href="https://github.com/rupaya-project/"
                                         target="_blank"><i class="tomoissuer-icon-github"/></a></li>
                                     <li><a
-                                        href="https://www.linkedin.com/company/tomochain"
+                                        href="https://www.linkedin.com/company/rupaya"
                                         target="_blank"><i class="tomoissuer-icon-linkedin"/></a></li>
                                     <li><a
-                                        href="https://www.reddit.com/r/Tomochain/"
+                                        href="https://www.reddit.com/r/rupayacoin/"
                                         target="_blank"><i class="tomoissuer-icon-reddit"/></a></li>
                                 </ul>
                             </div>

@@ -13,12 +13,12 @@
                     </span>
                 </p>
                 <!-- <p><i class="tomoissuer-icon-tomox-new"/></p> -->
-                <h2 class="tmp-title-large">Apply to TomoX protocol</h2>
+                <h2 class="tmp-title-large">Apply to RupeX protocol</h2>
             </div>
             <h6 class="tmp-title-normal weightbold mt-5">Condition</h6>
             <p>
                 You need to pay
-                <strong>1000 TOMO</strong> as TomoX protocol listing fee
+                <strong>1000 RUPX</strong> as TomoX protocol listing fee
             </p>
             <b-form
                 class="tmp-form-one">
@@ -27,7 +27,7 @@
                     label-for="newFee">
                     <span
                         class="txt-fixed"
-                        style="clear">TOMO</span>
+                        style="clear">RUPX</span>
                     <b-form-input
                         v-model="txFee"
                         disabled
@@ -42,14 +42,14 @@
                     <b-button
                         class="tmp-btn-blue"
                         @click="applyTomoX">
-                        Apply to TomoX protocol
+                        Apply to RupeX protocol
                     </b-button>
                 </div>
                 <div
                     v-if="!isEnoughTOMO"
                     class="text-center text-danger mt-3">
                     <span>
-                        Not enough TOMO</span>
+                        Not enough RUPX</span>
                 </div>
             </b-form>
             <b-modal

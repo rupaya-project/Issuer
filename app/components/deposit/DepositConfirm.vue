@@ -32,7 +32,7 @@
                     </tr>
                     <tr>
                         <td>Deposit amount</td>
-                        <td>{{ formatNumber(depositFee) }} TOMO</td>
+                        <td>{{ formatNumber(depositFee) }} RUPX</td>
                     </tr>
                     <tr>
                         <td>Transaction fee</td>
@@ -76,7 +76,7 @@
                     <div class="msg-txt">
                         <i class="tomoissuer-icon-checkmark-outline"/>
                         <h4>Successful</h4>
-                        <p>You’ve just successfully deposited {{ depositFee }} TOMO</p>
+                        <p>You’ve just successfully deposited {{ depositFee }} RUPX</p>
                         <p>
                             Transaction hash:
                             <a

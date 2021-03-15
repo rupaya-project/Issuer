@@ -3,13 +3,13 @@
         <div class="tomo-apply text-center">
             <h2 class="tmp-title-large">Pay fee by {{ token.name }} token</h2>
             <div class="about-tomoz">
-                <h6 class="tmp-title-normal weightbold">What is TomoZ</h6>
+                <h6 class="tmp-title-normal weightbold">What is RupayaZ</h6>
                 <p>
-                    TomoZ - the first on-chain protocol that offers the ability for any user
+                    RupayaZ - the first on-chain protocol that offers the ability for any user
                     to pay transaction fees with the same token the user is holding. Along with
-                    the TomoZ protocol, TRC21 is also proposed as a new smart contract-based
+                    the RupayaZ protocol, TRC21 is also proposed as a new smart contract-based
                     token standard that allows users to pay fees of any transaction sent to a
-                    TRC21 smart contract in terms of the TRC21 token itself, without holding TOMO in their wallet.
+                    TRC21 smart contract in terms of the TRC21 token itself, without holding RUPX in their wallet.
                 </p>
             </div>
             <div class="box-condition">
@@ -22,8 +22,8 @@
                                 src="/app/assets/images/img_condition_1@3x.png"/>
                         </p>
                         <p>
-                            The token issuer has to deposit a minimum amount of 10 TOMO to apply
-                            to the TomoZ protocol. The deposit cannot be withdrawn.
+                            The token issuer has to deposit a minimum amount of 10 RUPX to apply
+                            to the RupayaZ protocol. The deposit cannot be withdrawn.
                         </p>
                     </b-col>
                     <b-col
@@ -55,9 +55,9 @@
                                 src="/app/assets/images/img_condition_4@3x.png"/>
                         </p>
                         <p>
-                            Token transactions will not be processed if the TOMO deposit is not
+                            Token transactions will not be processed if the RUPX deposit is not
                             enough for paying masternodes. In that case, any one can donate
-                            TOMO to resume the token transaction processing.
+                            RUPX to resume the token transaction processing.
                         </p>
                     </b-col>
                 </b-row>

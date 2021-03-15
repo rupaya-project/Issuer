@@ -1,4 +1,4 @@
-## TomoIssuer
+## Issuer
 
 ## Requirements
 - NodeJS (If you get EACCES permission issue, please see: https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally)
@@ -31,11 +31,11 @@ npm install
 truffle deploy --reset --network tomo # only use this command if you want to connect to a private network
 cp abis/*json build/contracts/
 ```
-Note: before deploying to tomochain testnet, make sure you have TOMO in the wallet. If not, get free at [https://faucet.testnet.tomochain.com](https://faucet.testnet.tomochain.com)
+Note: before deploying to tomochain testnet, make sure you have RUPX in the wallet. If not, get free at [https://faucet.testnet.tomochain.com](https://faucet.testnet.tomochain.com)
 
 ## Run
 - Start mongodb
-- Start TomoIssuer
+- Start Issuer
 ```
 npm run dev
 ```
